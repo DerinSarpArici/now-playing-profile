@@ -148,7 +148,7 @@ export const Player: React.FC<Props> = ({
             {`${track ?? ""} `.trim()}
           </Text>
           <Text id="artist" color={!track ? "gray" : undefined}>
-            {artist || "Hiçbir şey çalmıyor gibi duruyor..."}
+            {artist || "Hiçbir şey dinlemiyorum gibi duruyor..."}
           </Text>
           {track && (
             <div className="progress-bar">
